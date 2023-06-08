@@ -1,0 +1,256 @@
+body{
+    background-color: #343a40;
+}
+
+.container{
+    margin-top: 50px;
+    max-width: 500px;
+}
+
+/*Menu*/
+.menuConatainer {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #6c757d;
+    background-color: #f6f6f6;
+    z-index: 9999;
+    margin-bottom: 5px;
+}
+
+.leftIteamConatainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainMenuIteamContainer{
+    display: flex;
+    justify-content: right ;
+}
+
+.menuIteamContainer{
+    display: flex;
+    margin-right: 60px;
+}
+
+.Iteam {
+    margin-right: 50px;
+    margin-top: 34px;
+    height: 20px;
+    width: 30px;
+    display: flex;
+}
+
+.Iteam2{
+    margin-top: 40px;
+    height: 20px;
+    width: 30px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 14px;
+}
+
+.icon{
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.image{
+    height: 70px;
+    width: 70px;
+    border-radius: 60px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline;
+}
+
+.sideLine {
+    height: 20px;
+    width: 1px;
+    background-color: #6c757d;
+}
+
+.imageInIteam{
+    width: 30px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.title{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    display: inline;
+}
+/*First Event*/
+.resultForShopping{
+    display: inline;
+    height: 160px;
+}
+
+.icon:hover + .box,
+.box:hover{
+    display: inline;
+}
+
+.columContainer{
+    display: inline;
+}
+
+.box{
+    display: none;
+    position: absolute;
+    margin-top: 10px;
+    padding: 20px;
+    height: 490px;
+    background-color: gray;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.headTag{
+    color: #f6f6f6;
+}
+
+.btn-primary{
+    border-radius: 20px;
+    width: 260px;
+    margin-bottom: 9px;
+}
+
+.mediaImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.middle{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.para{
+    font-size: small;
+    margin-top: 20px;
+    color: #f6f6f6;
+}
+
+.underText{
+    cursor: pointer;
+    color: #f6f6f6;
+}
+
+.outLine{
+    height: 1px;
+    background-color: lightgray;
+    margin-bottom: 5px;
+}
+/*SecondEvent*/
+.resultForMessage {
+    display: none;
+    height: 160px;
+}
+
+.columContainer2 {
+    display: flex;
+}
+
+.box2{
+    width: 330px;
+    padding: 20px;
+    height: 270px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.para2{
+    font-size: small;
+    color: #f6f6f6;
+}
+
+/*Third event*/
+
+.resultForClipboard{
+    display: none;
+    height: 50px;
+}
+
+.box3{
+    width: 300px;
+    height: 60px;
+    padding: 15px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+b{
+    cursor: pointer;
+}
+
+/*Input*/
+.autoCompleteInput{
+    border-radius: 25px;
+    padding: 10px;
+    width : 200px;
+    transition: 2s width;
+}
+
+.autoCompleteInput:focus{
+    width : 477px
+}
+
+.productIteamContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 50px;
+    border-bottom : 1px solid lightgray;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.productName{
+    font-size: 14px;
+    width: 80%;
+} 
+
+.productImage {
+    height: 80%;
+}
+
+.resultContainer{
+    background-color: #fff;
+    border-radius: 25px;
+    margin-top: 4px;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+  
+.icon:hover + .menu-content,
+.menu-content:hover {
+    display: block;
+}
+
+@media (max-width : 800px) {
+    .mainMenuIteamContainer{
+        display: none;
+    }
+}
